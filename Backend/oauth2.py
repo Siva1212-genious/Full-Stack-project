@@ -10,7 +10,7 @@ oauth2_schema = OAuth2PasswordBearer(tokenUrl="/Login/users")
 
 
 
-SECRET_KEY = "jhsdbhekrrg.rjrrnrf.akidj.wf24244.345qrgr2b3rbhb"
+SECRET_KEY = "***********************************************"
 ALGORITHM = "HS256"
 Access_Token_Time = 30
 
