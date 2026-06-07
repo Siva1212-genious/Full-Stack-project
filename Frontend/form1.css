@@ -1,0 +1,78 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.Main-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.Form-Container{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    flex: 1;
+    padding: 20px 25px;
+    margin: 20px;
+    background-color: rgb(1, 190, 80);
+    border-radius: 10px;
+}
+
+.Box-Container{
+    width: 300px;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h1{
+    
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 42px;
+    background-color: rgb(52, 2, 95);
+    color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
+
+
+.Button-Container{
+    width: 90px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: rgb(184, 90, 14);
+}
+
+.Gender-Container{
+    width: 300px;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Search-Container{
+    width: 300px;
+    padding: 10px 15px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.Search-button{
+    width: 90px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-color: rgb(92, 223, 6); 
+}

@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.Hamburger{
+    position: fixed;
+    top: 15px;
+    left: 25px;
+
+    font-size: 35px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    z-index: 1001;
+}
+
+
+
+
+.sidebar{
+    position: fixed;
+    left: -200px;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    transition: left 0.4s ease;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 3px rgb(155, 146, 146);
+
+    padding-top: 90px;
+
+    background-color: rgb(6, 175, 153);
+}
+
+.side-bar-heading{
+    font-size: 35px;
+    color: white;
+    background-color: rgb(69, 64, 70);
+    
+}
+
+.sidebar.active{
+    left: 0;
+}
+/*
+.Organize-Container{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    
+}
+*/
+
+.Links-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.Links-Container a{
+    color: rgb(237, 246, 247);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Links-Container a:hover{
+    text-decoration: underline;
+}
+
+.Home-Main-Post-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Home-post-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    border: 1px solid black;
+    padding: 50px 65px;
+    border-radius: 20px;
+    box-shadow: 2px 5px rgb(124, 122, 122);
+    background-color: rgb(187, 221, 221);
+}
+
+.Home-Input-Container{
+    width: 90%;
+    max-width: 400px;
+    margin-top: 30px auto;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    border: 2px solid rgb(77, 77, 77);
+    box-shadow: 2px 5px rgb(177, 175, 175);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.Home-Butt-Container{
+
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 1px 3px rgb(134, 133, 133);
+    background-color: rgb(69, 238, 111);
+}
+.Home-Butt-Container:hover{
+    cursor:pointer;
+    background-color:rgb(60, 230, 105);
+}
+
+
+
+
+
+.Search-Main-Container{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Search-Input-Container{
+    flex-grow: 1;
+    padding: 10px 50px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.Search-Button-Container{
+    padding: 10px 20px;
+    background-color: rgb(127, 253, 1);
+    border-radius: 10px;
+
+}
+
+.Search-Display-Container{
+    border: 1px solid Black;
+}
+
+
+.Logout-Button{
+   
+    position: fixed;
+    right: 0;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: rgb(155, 65, 77);
+    border-radius: 20px;
+}
+
+
+
